@@ -20,7 +20,7 @@ for yearmonth2 in 2022{01,02,03}
 do
                 case ${yearmonth2} in
                 202201)
-                        for a in `seq -f %02g 1 30`
+                        for a in `seq -f %02g 1 31`
                         do
                                 mkdir -p ${yearmonth2}${a}
                         done
